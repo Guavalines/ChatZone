@@ -1,0 +1,5 @@
+<%= turbo_frame_tag(dom_id(message)) do %>
+  <div class="row">
+    <%= "#{message.user.email.split('@')[0].capitalize}: #{message.body}" %>
+  </div>
+<% end %>
