@@ -6,6 +6,10 @@ export default class extends Controller {
   connect() {
     console.log(this.containerTarget);
     this.resetScroll();
+
+    this.containerTarget.addEventListener("DOMNodeInserted", () => {
+      this.resetScroll();
+    });
   }
 
   resetScroll() {
