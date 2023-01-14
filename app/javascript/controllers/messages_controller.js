@@ -5,5 +5,12 @@ export default class extends Controller {
   static targets = ["container", "input_form"];
   connect() {
     console.log(this.containerTarget);
+    this.resetScroll();
+  }
+
+  resetScroll() {
+    const scrollHeight = this.containerTarget.scrollHeight;
+
+    this.containerTarget.scrollTo(0, scrollHeight);
   }
 }
