@@ -1,4 +1,5 @@
 class RoomsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_room, only: %i[ show edit update destroy ]
 
   # GET /rooms or /rooms.json
