@@ -14,7 +14,7 @@ ChatZone is a chat app with rooms, messages, styled input forms & user to user r
 
 ```
  git clone git@github.com:guavalines/ChatZone.git
- cd rails-yepl-mvp
+ cd ChatZone
  rails db:create db:migrate db:seed:replant
  bundle install
  yarn install
