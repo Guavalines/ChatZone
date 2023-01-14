@@ -14,7 +14,10 @@ export default class extends Controller {
 
   resetScroll() {
     const scrollHeight = this.containerTarget.scrollHeight;
-
     this.containerTarget.scrollTo(0, scrollHeight);
+  }
+
+  resetForm() {
+    this.input_formTarget.reset();
   }
 }
