@@ -1,6 +1,7 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
+
 #messages {
   // create chatroom messages container with scroll
   height: 400px;
@@ -13,4 +14,29 @@
   border: 1px solid #aaa;
   border-radius: 3px;
   margin: 1em;
+}
+
+.navbar {
+  position: relative;
+}
+
+.nav-brand {
+  position: absolute;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+.bi {
+  color: white;
+  font-size: 40px;
 }
