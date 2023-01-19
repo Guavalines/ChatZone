@@ -4,7 +4,8 @@ ChatZone is a chat app with rooms, messages, styled input forms & user to user r
 
 ![chatzone-index](https://user-images.githubusercontent.com/100665876/213108626-55c1a6df-4873-4292-a8b8-3a7e6bd5c819.jpeg)
 
-- User Joel chats with User John Doe:
+- Here Joel chats with John:
+- 
 ![ChatZone-show](https://user-images.githubusercontent.com/100665876/213362780-c1032945-6c06-4fe8-8955-5e6dff309869.jpeg)
 
 
