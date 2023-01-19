@@ -30,4 +30,4 @@ ChatZone is a chat app with rooms, messages, styled input forms & user to user r
  rails server
  ```
  
- To have two different users talk to each other type bin/dev in your console for user 1, and open your browser and visit localhost:3000 for user 2.
+ To have two different users talk with each other, type bin/dev in your console for user 1 and open your browser and visit localhost:3000 for user 2.
