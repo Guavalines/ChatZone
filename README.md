@@ -21,6 +21,16 @@ class Message < ApplicationRecord
 end
 ```
 
+- Here is the message view:
+
+```
+<%= turbo_frame_tag(dom_id(message)) do %>
+  <div class="row">
+    <%= "#{message.user.email.split('@')[0].capitalize}: #{message.body}" %>
+  </div>
+<% end %>
+```
+
 
 ## Please initialize these before starting the app:
 
