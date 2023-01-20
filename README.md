@@ -10,6 +10,14 @@ ChatZone is a chat app with rooms, messages, styled input forms & user to user r
 
 ![ChatZone-show](https://user-images.githubusercontent.com/100665876/213362780-c1032945-6c06-4fe8-8955-5e6dff309869.jpeg)
 
+```
+class Message < ApplicationRecord
+  belongs_to :user
+  belongs_to :room
+
+  after_commit { broadcast_append_to "room_#{room.id}" }
+end
+```
 
 
 ## Please initialize these before starting the app:
