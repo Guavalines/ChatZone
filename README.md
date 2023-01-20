@@ -10,6 +10,8 @@ ChatZone is a chat app with rooms, messages, styled input forms & user to user r
 
 ![ChatZone-show](https://user-images.githubusercontent.com/100665876/213362780-c1032945-6c06-4fe8-8955-5e6dff309869.jpeg)
 
+- Here is the message model:
+
 ```
 class Message < ApplicationRecord
   belongs_to :user
