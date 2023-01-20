@@ -31,6 +31,22 @@ end
 <% end %>
 ```
 
+- Here is the room view:
+
+```
+<div id="<%= dom_id room %>" data-controller="messages">
+<%= turbo_stream_from dom_id(room) %>
+  <h1 class="text-center"><%= room.name %></h1>
+  <div id="messages" data-messages-target="container">
+    <% @messages&.each do |message| %>
+      <%= render "messages/message", message: message %>
+    <% end %>
+  </div>
+  <div id="new_message">
+    <%= render "messages/form", room: room %>
+  </div>
+</div>
+```
 
 ## Please initialize these before starting the app:
 
