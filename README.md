@@ -1,8 +1,9 @@
 ![ChatZone](https://user-images.githubusercontent.com/100665876/232448053-3d23a4ef-3851-4fcc-96b6-b40c449d61f9.jpeg)
 
-
+Description
 ChatZone is a chat app with rooms, messages, styled input forms & user to user real time communication made with with Rails 7 using Turbo & Stimulus.
 
+Features
 - Users can choose to enter multiple chat rooms or make a new room:
 
 ![chatzone-index](https://user-images.githubusercontent.com/100665876/213108626-55c1a6df-4873-4292-a8b8-3a7e6bd5c819.jpeg)
